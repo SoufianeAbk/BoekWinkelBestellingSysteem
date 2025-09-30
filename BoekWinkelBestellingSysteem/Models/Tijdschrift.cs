@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 using System;
-
+// Validatie Boek Klasse
 namespace BoekwinkelBestellingssysteem.Models
 {
     public class Tijdschrift : Boek

@@ -100,7 +100,7 @@ namespace BoekwinkelBestellingssysteem
             tijdschriften.Add(new Tijdschrift("ISSN-4567-8901", "Science Today", "Science Press", 15.50m, Verschijningsperiode.Wekelijks));
             tijdschriften.Add(new Tijdschrift("ISSN-5678-9012", "Business Magazine", "Business Ltd", 18.75m, Verschijningsperiode.Maandelijks));
 
-            Console.WriteLine("✓ Testdata geladen: 5 boeken en 5 tijdschriften.\n");
+            Console.WriteLine(" 5 boeken en 5 tijdschriften geladen.\n");
         }
 
         static void ToonBoeken()

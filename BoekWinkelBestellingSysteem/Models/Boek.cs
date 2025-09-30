@@ -15,7 +15,7 @@ namespace BoekwinkelBestellingssysteem.Models
         private string uitgever;
         private decimal prijs;
 
-        // Properties met gepersonaliseerde get/set voor prijs
+        // Properties met gepersonaliseerde getters/setters voor prijs
         public string Isbn
         {
             get { return isbn; }
@@ -39,7 +39,7 @@ namespace BoekwinkelBestellingssysteem.Models
             get { return prijs; }
             set
             {
-                // Prijs moet tussen 5€ en 50€ zijn
+                // Prijs is tussen 5€ en 50€ zijn
                 if (value < 5)
                     prijs = 5;
                 else if (value > 50)

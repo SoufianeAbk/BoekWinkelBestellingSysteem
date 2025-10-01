@@ -14,7 +14,7 @@ namespace BoekwinkelBestellingssysteem
         static void Main(string[] args)
         {
             Console.WriteLine("╔════════════════════════════════════════════════════╗");
-            Console.WriteLine("║   BOEKWINKEL BESTELLINGSSYSTEEM                   ║");
+            Console.WriteLine("║   BOEKWINKEL BESTELLINGSSYSTEEM                    ║");
             Console.WriteLine("╚════════════════════════════════════════════════════╝\n");
 
             // Initialiseer testdata
